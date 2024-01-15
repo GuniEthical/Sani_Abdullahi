@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 120px;
+    border-bottom: 2px solid orange;
+}
+header img{
+    height: 50px;
+}
+h2{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 5px 0;
+    font-weight: 300;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.move{
+    width: 40%;
+    margin: auto;
+    margin-top: 4px;
+    background-color: white;
+    color: green;
+}
+.photodiv{
+    width: 20%;
+    float: left;
+    text-align: right;
+    height: 110px;
+}
+
+.photodiv img{
+    height: 100%;
+    width: 110px;
+    border-radius: 50%;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+.metext{
+    width: 80%;
+    float: right;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.project-info h3 {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.project-info p {
+    margin: 10px 0;
+}
+
+.about {
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+    padding: 50px 0;
+}
+.about ul li{
+    font-size: 20px;
+    font-weight: bold;
+}
+span{
+    color: green;
+
+}
+
+.contact {
+    background-color: green;
+    color: #fff;
+    padding: 50px 0;
+}
+.contact h2{
+    color: white !important;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+}
+
+footer {
+    background: linear-gradient(to bottom, #333333, #1a1a1a);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0
+
+}
